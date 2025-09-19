@@ -66,6 +66,17 @@ h2.weather::after {
   margin-left: 0.5rem;
 }
 
+.weather-icon {
+  display: block;
+  width: 120px;         /* size can be adjusted */
+  margin: 1rem auto;    /* centers the icon */
+}
+
+}
+
+   
+}
+
 /* ==============================
    Footer
    ============================== */
