@@ -1,1 +1,88 @@
+/* ==============================
+   Global Variables & Reset
+   ============================== */
+:root {
+  --primary-color: #b52b2b;       /* Kyoto temple red */
+  --secondary-color: #f2efe9;     /* Soft cream background */
+  --accent-color: #4a4a4a;        /* Charcoal gray for text */
+  --font-heading: 'Georgia', serif;
+  --font-body: 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==============================
+   Base Styles
+   ============================== */
+body {
+  font-family: var(--font-body);
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr; /* single column for mobile */
+  gap: 2rem;
+  padding: 2rem;
+}
+
+section {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+h2 {
+  font-family: var(--font-heading);
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+/* ==============================
+   Weather Section Pseudo Element
+   ============================== */
+h2.weather::after {
+  content: " ☀️"; /* Example icon — can change to ☁️ 🌧 etc. */
+  margin-left: 0.5rem;
+}
+
+/* ==============================
+   Footer
+   ============================== */
+footer {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ==============================
+   Media Query: Large View
+   ============================== */
+@media (min-width: 800px) {
+  main {
+    grid-template-columns: 2fr 1fr; /* two-column layout for large screens */
+  }
+}
 
