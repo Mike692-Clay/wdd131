@@ -54,6 +54,39 @@ const temples = [
     area: 116642,
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
-  },
-  // Add more temple objects here...
-];
+<div>
+  <h2>Tokyo Japan</h2>
+  <p>Location: Tokyo, Japan</p>
+  <p>Dedicated: 1980, October, 27</p>
+  <p>Area: 53,997 sq ft</p>
+  <img 
+    src="https://churchofjesuschristtemples.org/assets/img/temples/tokyo-japan-temple/tokyo-japan-temple-40165-main.jpg" 
+    alt="Tokyo Japan Temple"
+    loading="lazy"
+  >
+</div>
+
+<div>
+  <h2>Seattle Washington</h2>
+  <p>Location: Bellevue, Washington</p>
+  <p>Dedicated: 1980, November, 17</p>
+  <p>Area: 110,000 sq ft</p>
+  <img 
+    src="https://churchofjesuschristtemples.org/assets/img/temples/seattle-washington-temple/seattle-washington-temple-46760-main.jpg" 
+    alt="Seattle Washington Temple"
+    loading="lazy"
+  >
+</div>
+
+<div>
+  <h2>Taylorsville Utah</h2>
+  <p>Location: Taylorsville, Utah</p>
+  <p>Dedicated: 2024, June, 2</p>
+  <p>Area: 73,492 sq ft</p>
+  <img 
+    src="https://churchofjesuschristtemples.org/assets/img/temples/taylorsville-utah-temple/taylorsville-utah-temple-46644-main.jpg" 
+    alt="Taylorsville Utah Temple"
+    loading="lazy"
+  >
+</div>
+
